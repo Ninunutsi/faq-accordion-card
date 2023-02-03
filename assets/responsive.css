@@ -6,12 +6,41 @@
     .mob-background, .mob-woman{
         display: none;
     }
+
+    .imgs{
+        position: relative;
+        width: 50%;
+        height: 400px;
+        overflow: hidden;
+    }
+    
+    .background{
+        position: absolute;
+        width: 100%;
+        top: 0;
+        height: 100%;
+        left: -75px;
+        transform: scale(1);
+    }
+    
+    .woman{
+        top: 15%;
+        left: -95px;
+        transform: scale(1);
+    }
+    
+    .box{
+        position: absolute;
+        left: -11%;
+        top: -13%;
+    }
+    
 }
 
 @media(max-width: 700px){
 
     body{
-        padding: 6vh 0;
+        padding: 8vh 0 3vh 0;
     }
 
     .container{
@@ -47,11 +76,15 @@
     }
 
     .mob-background{
-        left: 15%;
+        left: 8%;
+        top: -15%;
+        transform: scale(0.9);
+
     }
 
     .mob-woman{
-        top: -130px;
+        top: -110px;
+        transform: scale(0.7);
     }
     
     .image{
@@ -62,7 +95,7 @@
     
     .texts{
         width: 100%;
-        padding: 40px 30px;
+        padding: 60px 30px;
     }
     
     .texts h1{

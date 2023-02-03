@@ -38,7 +38,7 @@ main{
 .imgs{
     position: relative;
     width: 50%;
-    height: 100%;
+    height: 400px;
     overflow: hidden;
 }
 
@@ -48,15 +48,15 @@ main{
     top: 0;
     height: 100%;
     left: -75px;
-    transform: scale(1.2);
+    transform: scale(0.99);
 }
 
 .woman{
     position: absolute;
     width: 100%;
-    top: 15%;
-    left: -75px;
-    transform: scale(0.999);
+    top: 8%;
+    left: -95px;
+    transform: scale(0.8);
 }
 
 .box{
